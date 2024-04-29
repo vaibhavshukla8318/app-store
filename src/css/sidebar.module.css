@@ -4,4 +4,27 @@
   width: 65px;
   background-color: #d6d4d4;
   bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2%;
+  
+}
+.sidebar>div{
+  width: 100%;
+  height: 48%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+.sidebar div img{
+  height: 34px;
+  width: 34px;
+  transition: all 0.2s ease-in-out;
+}
+
+.sidebar div img:hover{
+  background-color: gray;
 }

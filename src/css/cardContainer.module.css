@@ -1,0 +1,68 @@
+section{
+  padding: 20px 10px;
+}
+/* section 1 */
+.section1{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+}
+
+.section1 div{
+  position: relative;
+  height: 150px;
+  width: calc(100% - 67%);
+  border: 1px solid gray;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  display: flex;
+  padding-top: 15px;
+}
+.section1 div:hover{
+  filter: brightness(170%);
+  transition: all 0.2s ease-in-out;
+}
+.section1 div img{
+  height: 110px;
+  width: 110px;
+  margin-left: 10px;
+}
+.section1 div h4{
+  margin-left: 30px;
+}
+.section1 div a{
+  position: absolute;
+  margin-top: -15px;
+  height: 100%;
+  width: 100%;
+}
+
+/* section 2 */
+.section2{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.section2 div{
+  position: relative;
+  height: 280px;
+  width: 180px;
+  border: 1px solid gray;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  display: flex;
+
+}
+.section2 div:hover{
+  filter: brightness(170%);
+  transition: all 0.2s ease-in-out;
+}
+.section2 div img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
