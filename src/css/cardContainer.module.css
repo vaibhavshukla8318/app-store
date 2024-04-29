@@ -32,7 +32,7 @@ section{
 .section1 div h4{
   margin-left: 30px;
 }
-.section1 div a{
+section div a{
   position: absolute;
   margin-top: -15px;
   height: 100%;

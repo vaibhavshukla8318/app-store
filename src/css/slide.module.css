@@ -4,35 +4,26 @@
   border-radius: 0px 0 0px 20px;
   display: flex;
   overflow-x: auto;
-  gap: 5px;
+  /* gap: 25px; */
 
 }
 .slide::-webkit-scrollbar{
   display: none;
 }
-.fullWidth img{
-  border-radius: 0px 0 0px 20px;
-}
-img{
+
+ img{
   height: 100%;
-  width: 100%;
+  width: 30%;
   object-fit: cover;
-  transition: transform 0.5s ease-in-out;
-}
-
-
-.fullWidth{
-  height: 100%;
-  width:70% ;
-  border-radius: 0px 0 0px 20px;
-  display: flex;
+  transition: 0.8s ease-in-out;
 }
 
 .halfWidth{
   height: 100%;
-  width:30%;
+  width:100%;
   border: 1px solid green;
   display: flex;
+  gap: 5px;
 }
 
 .halfWidth img:hover {
@@ -43,10 +34,7 @@ img{
   cursor: pointer;
 }
 
-.halfWidth img:nth-child(2) {
-  margin: 0 10px;
-}
-
-.fullWidth img .enlarge {
-  transform: translateX(-50%);
+.selectedImage {
+  width: 70%;
+  transition: all 0.8s ease-in-out;
 }
