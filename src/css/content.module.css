@@ -2,6 +2,7 @@
   position: fixed;
   height: calc(100vh - 8vh);
   width: calc(100vw - 65px);
+  background-color: #d9d2b5;
   /* margin-top: 100%;
   margin-left:100%;  */
   bottom: 0;
@@ -14,4 +15,5 @@
   justify-content: center;
   gap: 2%; */
   overflow-y: auto;
+  overflow-x: hidden;
 }

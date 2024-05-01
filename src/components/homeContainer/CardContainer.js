@@ -22,7 +22,15 @@ const CardContainer = () => {
         {Images.map((images, index) => (
           <div key={index}>
             <img src={images.image} alt=''/>
-            <a href={images.link}></a>
+            <div style={{backgroundImage:`url(${images.image})`}}>
+              <a href={images.link}>
+               <span className={cardContainerStyle.detailsContainer}>
+                <h4>{images.title}</h4>
+               </span>
+              </a>
+            </div>
+            {/* <a href={images.link}></a>
+            <p>hulk</p> */}
           </div>
         ))}
       </section>
